@@ -9,23 +9,50 @@
     font-weight:normal; */
 
 body{
-    background-image : url(/home/wecode/my-portfolio/images/vanessa.jpg);
+    background-image : url("https://i.pinimg.com/originals/93/3d/00/933d00753eb606daf7b0f12b7d9e5f08.png");
     background-repeat : no-repeat;
     background-size : cover; 
-    width :-50px;
-    min-height:2000px;
     position: relative;
     overflow :auto;
-    box-shadow: 100px;
 }
 .nav{
     width :350px;
     height :auto;
-    background-color: gray;
+    
+    position :absolute;
+    top :20%;
+    left :0;
 }
 .nav a{
     text-decoration :none;
     font-size :28px;
     font-family :Verdana;
     font-weight: bold;
+    height :90px;
+    
+    margin : 5px 0;
+    background-color :black;
+    color: white;
+    display : inline-block;
+    line-height: 90px;
+    text-align: center;
+    transition :300ms;
+}
+ 
+ a.active, .nav a:hover{
+     background-color: white;
+     color :black;
+     width: 100%;
+
+ }
+.a{
+    width: 95%;
+
+}
+.b{
+    width :85%;
+
+}
+.c{
+    width: 80%;
 }
