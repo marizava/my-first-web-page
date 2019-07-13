@@ -18,3 +18,14 @@ body{
     overflow :auto;
     box-shadow: 100px;
 }
+.nav{
+    width :350px;
+    height :auto;
+    background-color: gray;
+}
+.nav a{
+    text-decoration :none;
+    font-size :28px;
+    font-family :Verdana;
+    font-weight: bold;
+}
