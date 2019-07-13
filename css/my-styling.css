@@ -9,9 +9,9 @@
     font-weight:normal; */
 
 body{
-    background-image : url("https://i.pinimg.com/originals/93/3d/00/933d00753eb606daf7b0f12b7d9e5f08.png");
-    background-repeat : no-repeat;
-    background-size : cover; 
+    
+    height: 800px;
+    width: 100%;
     position: relative;
     overflow :auto;
 }
@@ -55,4 +55,22 @@ body{
 }
 .c{
     width: 80%;
+}
+.home{
+    position :absolute;
+    right: 0;
+    bottom : 0;
+    color :white;
+    font-family: verdana;
+    text-transform :uppercase;
+
+}
+.mariza{
+    text-align: center;
+    border-bottom-color: blueviolet;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top : 100px;
+    left:16px;
+    
 }
