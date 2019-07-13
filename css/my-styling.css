@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* html ,body {
+    width: 100%;
+    height: 100%
+    font-size : 14px
+    font-weight:normal; */
+
+body{
+    background-image : url(/home/wecode/my-portfolio/images/vanessa.jpg);
+    background-repeat : no-repeat;
+    background-size : cover; 
+    width :-50px;
+    min-height:2000px;
+    position: relative;
+    overflow :auto;
+    box-shadow: 100px;
+}
