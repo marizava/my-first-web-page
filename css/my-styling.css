@@ -8,6 +8,8 @@
     font-size : 14px
     font-weight:normal; */
 
+
+
 body{
     
     height: 800px;
@@ -71,6 +73,4 @@ body{
     color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     top : 100px;
-    left:16px;
-    
 }
